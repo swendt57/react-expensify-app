@@ -1,0 +1,12 @@
+@import './base/settings';
+@import './base/base'; //leave off underscore and extension
+
+//Hides the arrows on a number input
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}

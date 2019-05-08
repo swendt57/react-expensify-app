@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render NotFoundPage 1`] = `
+<div>
+  You broke the Internet!! 404 error - 
+  <Link
+    replace={false}
+    to="/"
+  >
+    Back to Dashboard
+  </Link>
+</div>
+`;
